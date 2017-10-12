@@ -2,33 +2,51 @@ Initialize engine version: 5.5.0f3 (38b4efef76f0)
 GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
-    Renderer: Intel(R) HD Graphics 520 (ID=0x1916)
-    Vendor:   Intel
-    VRAM:     1623 MB
-    Driver:   21.20.16.4542
+    Renderer: NVIDIA Quadro K2200  (ID=0x13ba)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   10.18.13.5887
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.196 seconds
-Platform assembly: C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\princess sonnie\Source\Repos\GUIAssessment1\game test_Data\Managed\System.dll (this message is harmless)
-desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+Platform assembly: C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.020 seconds
+Platform assembly: C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\maureen.muthee\Source\Repos\GUIAssessment1\game test_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 3.282565 ms
+UnloadTime: 3.198191 ms
 NullReferenceException: Object reference not set to an instance of an object
   at GUIAssessment1.GUIManager.Start () [0x00000] in <filename unknown>:0 
  
 (Filename:  Line: -1)
 
-Setting up 1 worker threads for Enlighten.
-  Thread -> id: 17f0 -> priority: 1 
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 81bc -> priority: 1 
+  Thread -> id: 81b0 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.731302 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 591.
+Total: 0.391811 ms (FindLiveObjects: 0.070910 ms CreateObjectMapping: 0.010816 ms MarkObjects: 0.300468 ms  DeleteObjects: 0.009014 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.067265 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 587.
+Total: 1.093406 ms (FindLiveObjects: 0.077220 ms CreateObjectMapping: 0.042366 ms MarkObjects: 0.955791 ms  DeleteObjects: 0.016826 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at GUIAssessment1.GUIManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

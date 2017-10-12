@@ -7,7 +7,7 @@ using UnityEngine.UI;
 namespace GUIAssessment1
 {
     public class GUIManager : MonoBehaviour
-    {        
+    {
         [Header("Bools")]
         public bool showOptions;
         public bool fullScreenToggle;
@@ -41,7 +41,7 @@ namespace GUIAssessment1
         void Start()
         {
             // If there is a music file and a volume slider
-            if(mainMusic !=null && volumeSlider != null)
+            if (mainMusic != null && volumeSlider != null)
             {
                 // If we have a volume setting
                 if (PlayerPrefs.HasKey("Volume"))
@@ -52,7 +52,7 @@ namespace GUIAssessment1
                 // Set volumeSlider's value equal to mainMusic's volume
                 volumeSlider.value = mainMusic.volume;
             }
-            if(brightness != null && brightnessSlider != null)
+            if (brightness != null && brightnessSlider != null)
             {
                 brightnessSlider.value = brightness.intensity;
             }
@@ -96,7 +96,8 @@ namespace GUIAssessment1
             }
             else
             {
-                fullScreen.isOn = true;
+                fullScreen.isOn = false;
+                
                 fullScreenToggle = true;
             }
             resolutionDropdown.value = index;
@@ -107,20 +108,25 @@ namespace GUIAssessment1
         // Update is called once per frame
         void Update()
         {
-            if(mainMusic != null && volumeSlider != null)
+            if (mainMusic != null && volumeSlider != null)
             {
-                if(volumeSlider.value != mainMusic.volume)
+                if (volumeSlider.value != mainMusic.volume)
                 {
                     mainMusic.volume = volumeSlider.value;
                 }
             }
 
-            if(brightness != null && brightnessSlider != null)
+            if (brightness != null && brightnessSlider != null)
             {
-                if(brightnessSlider.value != brightness.intensity)
+                if (brightnessSlider.value != brightness.intensity)
                 {
                     brightness.intensity = brightnessSlider.value;
                 }
+            }
+
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Pause();
             }
         }
 
@@ -341,7 +347,7 @@ namespace GUIAssessment1
             Application.Quit();
 
         }
-        
+
         public void ShowOptions()
         {
             ToggleOptions();
@@ -381,7 +387,7 @@ namespace GUIAssessment1
 
         }
 
-        public void Load() 
+        public void Load()
         {
             mainMusic.volume = PlayerPrefs.GetFloat("Volume");
             brightness.intensity = PlayerPrefs.GetFloat("Brightness");
